@@ -15,9 +15,14 @@ public class Usuario {
 		return "Meu nome é " + nome + ".";
 	}
 	
+//	@Override
+//	public int hashCode() {
+//		return Objects.hash(nome);
+//	}
+	
 	@Override
 	public int hashCode() {
-		return Objects.hash(nome);
+		return this.nome.length();
 	}
 
 	@Override
