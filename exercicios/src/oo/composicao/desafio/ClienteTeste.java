@@ -5,7 +5,6 @@ public class ClienteTeste {
 	public static void main(String[] args) {
 		
 		
-		
 		Compra compra1 = new Compra();
 		compra1.adicionarItem("Computador", 1500, 1);
 		compra1.adicionarItem("Xicara", 15.90, 3);

@@ -6,7 +6,6 @@ public class Compra {
 	
 	ArrayList<Item> itens = new ArrayList<>();
 	
-	
 	double obterValorTotal() {
 		double total = 0;
 		
