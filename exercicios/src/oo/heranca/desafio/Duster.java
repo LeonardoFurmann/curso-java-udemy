@@ -2,14 +2,14 @@ package oo.heranca.desafio;
 
 public class Duster extends Carro{
 	
-	Duster(){
+	public Duster(){
 		this(315);
 	}
 	
 	
-	Duster(int velMaxima){
+	public Duster(int velMaxima){
 		super(velMaxima);
-		delta = 350;
+		delta = 15;
 	}
 	
 //	
