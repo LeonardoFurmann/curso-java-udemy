@@ -8,36 +8,45 @@ public class CarroTeste {
 
 	public static void main(String[] args) {
 		
-		Carro duster = new Duster(); //os métodos chamados serão da instãnica criada, do  tipo mais especifico ( Duster)
-		duster.Acelerar();
-		duster.Acelerar();
+		Duster duster = new Duster(); //os métodos chamados serão da instânica criada, do  tipo mais especifico ( Duster)
+		duster.acelerar();
+		duster.acelerar();
 		
 		System.out.println("Duster -  "+ duster.tosString());
 		
-		duster.Acelerar();
-		duster.Frear();
+		duster.acelerar();
+		duster.frear();
 		
 		Carro sandero = new Sandero();
-		sandero.Acelerar();
+		sandero.acelerar();
 		
 		System.out.println("Sandero - "+ sandero.tosString());
 		
-		sandero.Acelerar();
-		sandero.Acelerar();
-		sandero.Frear();
+		sandero.acelerar();
+		sandero.acelerar();
+		sandero.frear();
 		
 		
 		System.out.println("Duster -  "+ duster.tosString());
 		System.out.println("Sandero - "+ sandero.tosString());
 		
-		sandero.Frear();
-		sandero.Frear();
+		sandero.frear();
+		sandero.frear();
 		
 		System.out.println("Sandero - "+ sandero.tosString());
 		
-		sandero.Frear();
+		sandero.frear();
 		
 		System.out.println("Sandero - "+ sandero.tosString());
+		
+		duster.ligarTurbo();
+		duster.acelerar();
+		
+		System.out.println("Duster -  "+ duster.tosString());
+		
+		duster.velDoAr();
+		
+		System.out.println(duster.velDoAr());
 		
 	}
 

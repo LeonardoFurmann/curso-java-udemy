@@ -9,10 +9,13 @@ public class Jantar {
 		Comida igrediente1 = new Arroz(0.2);
 		Comida igrediente2 = new Feijao(0.1);
 		
+		Comida igrediente3 = new Arroz(0.3);
+		
 		System.out.println(convidado.getPeso());
 		
 		convidado.comer(igrediente1);
 		convidado.comer(igrediente2);
+		convidado.comer(igrediente3);
 		
 		System.out.println(convidado.getPeso());
 		
