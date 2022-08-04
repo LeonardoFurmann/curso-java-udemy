@@ -17,27 +17,7 @@ public class CarroTeste {
 		duster.acelerar();
 		duster.frear();
 		
-		Carro sandero = new Sandero();
-		sandero.acelerar();
-		
-		System.out.println("Sandero - "+ sandero.tosString());
-		
-		sandero.acelerar();
-		sandero.acelerar();
-		sandero.frear();
-		
-		
 		System.out.println("Duster -  "+ duster.tosString());
-		System.out.println("Sandero - "+ sandero.tosString());
-		
-		sandero.frear();
-		sandero.frear();
-		
-		System.out.println("Sandero - "+ sandero.tosString());
-		
-		sandero.frear();
-		
-		System.out.println("Sandero - "+ sandero.tosString());
 		
 		duster.ligarTurbo();
 		duster.acelerar();
@@ -48,6 +28,28 @@ public class CarroTeste {
 		
 		System.out.println(duster.velDoAr());
 		
+		System.out.println();
+		
+		Carro sandero = new Sandero();
+		sandero.acelerar();
+		
+		System.out.println("Sandero - "+ sandero.tosString());
+		
+		sandero.acelerar();
+		sandero.acelerar();
+		sandero.frear();
+		
+		
+		System.out.println("Sandero - "+ sandero.tosString());
+		
+		sandero.frear();
+		sandero.frear();
+		
+		System.out.println("Sandero - "+ sandero.tosString());
+		
+		sandero.frear();
+		System.out.println("Sandero - "+ sandero.tosString());
 	}
+		
 
 }
