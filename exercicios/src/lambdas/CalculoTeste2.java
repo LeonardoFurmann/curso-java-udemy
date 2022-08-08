@@ -9,6 +9,11 @@ public class CalculoTeste2 {
 		
 		calculo = (x,y) -> x * y;   // sem chaves, o unico codigo ira retornar implicidamente
 		System.out.println(calculo.executar(2, 3));
+		
+		System.out.println(calculo.legal());
+		System.out.println(Calculo.muitoLegal());
+		
+		
 	}
 
 }
